@@ -16,7 +16,7 @@ import os
 # print("********************")
 # print(f"only directories: {dir}")
 
-#2 task
+# 2 task
 # path=r"C:\Users\Ерс\Downloads"
 # if os.path.exists(path):
 #     print("file exists")
@@ -38,7 +38,7 @@ import os
 #     print("file does not exist")
 
 
-#3 task
+# 3 task
 # path=r"C:\Users\Ерс\Downloads"
 # if os.path.exists(path):
 #     print("file exists")
@@ -48,7 +48,7 @@ import os
 #     print("file does not exist")
 
 
-#4 task
+# 4 task
 # path=r"C:\Users\Ерс\Desktop\w3\abcd.txt"
 # f=open(path,'r')
 # cnt=0
@@ -57,7 +57,7 @@ import os
 # print(cnt)
 
 
-#5 task
+# 5 task
 # path=r"C:\Users\Ерс\Desktop\w3\abcd.txt"
 # list=["artur morgan", " john marston", " mika the rat"]
 # f=open(path, 'w')
@@ -65,7 +65,7 @@ import os
 #     f.write(i)
 # print(f.read)
 
-#6 task
+# 6 task
 # for i in range(0,26):
 #     s=chr(65+i)+".txt"
 #     f=open(s,'w')
@@ -73,7 +73,7 @@ import os
 #     f.close()
 
 
-#7 task
+# 7 task
 # path=r"C:\Users\Ерс\Desktop\w3\abcd.txt"
 # f=open(path, 'r')
 # f1=open('efg.txt','w')
@@ -85,7 +85,7 @@ import os
 #     print(f1.read())
 
 
-#8 task
+# 8 task
 # path=r"C:\Users\Ерс\Desktop\w3\ab.txt"
 # if os.path.exists(path):
 #     print("this file exists and will be deleted")

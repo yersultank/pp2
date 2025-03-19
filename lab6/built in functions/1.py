@@ -29,20 +29,20 @@ import time
 # print(num)
 
 #5 task
-size=int(input("size of tuple:"))
-list=[]
-for i in range(1,size+1):
-    element=input("enter element:")
-    if element==0:
-        list.append(0)
-    elif element=="False":
-        list.append(False)
-    elif element=="True":
-        list.append(True)
-    elif element=="1":
-        list.append(1)
-    else:
-        list.append(element)
-tuple=tuple(list)
-x=all(tuple)
-print(x)
+# size=int(input("size of tuple:"))
+# list=[]
+# for i in range(1,size+1):
+#     element=input("enter element:")
+#     if element==0 or element==False:
+#         list.append(0)
+#     elif element=="False":
+#         list.append(False)
+#     elif element=="True":
+#         list.append(True)
+#     elif element=="1":
+#         list.append(1)
+#     else:
+#         list.append(element)
+# tuple=tuple(list)
+# x=all(tuple)
+# print(x)
